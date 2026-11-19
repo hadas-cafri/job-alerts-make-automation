@@ -38,7 +38,7 @@ Gmail (Watch emails) → Text parser → Airtable (Search records) → Numeric a
 5. בטבלה נדרשים השדות: `External ID`, `Title`, `Company`, `Location`, `Location OK` (תיבת סימון), `Office Requirement`, `Apply URL`, `Source`, `Status`, `Triage` (`Fit` / `Maybe` / `Not fit`), `Posted Date`, `First Seen`, `Last Seen`.
 6. **השאירי את התרחיש כבוי (Inactive)** עד שבדקת. בדיקה: **Run once**, ובמודול ה-Gmail קליק ימני ← **Choose where to start** ← בחירת מייל התראה.
 
-> **לא נבדק:** ייבוא הקובץ המנוקה לחשבון Make אחר. ה-Blueprint המקורי נבנה ונבדק בחשבון אחד (חיפוש, החלטה וכתיבה אומתו מול Airtable אמיתי), והמנוקה נבדק רק מול טסט הכללים שלמטה.
+> **מה נבדק:** ה-Blueprint המקורי נבנה ונבדק בחשבון אחד (חיפוש, החלטה וכתיבה אומתו מול Airtable אמיתי, כולל הרצה כפולה על אותו מייל). הקובץ המנוקה **יובא ל-Make ונטען בלי שגיאות**. **לא נבדק:** הרצה מלאה של התרחיש המיובא, וייבוא בחשבון Make של אדם אחר.
 
 ## מגבלות ידועות
 
